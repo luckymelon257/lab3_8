@@ -12,7 +12,7 @@ endif()
 project ("lab3_8")
 
 # Add source to this project's executable.
-add_executable (lab3_8 "lab3_8.cpp" "lab3_8.h")
+add_executable (lab3_8 "main.cpp" )
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET lab3_8 PROPERTY CXX_STANDARD 20)
